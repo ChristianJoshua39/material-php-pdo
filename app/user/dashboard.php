@@ -101,7 +101,7 @@ table.dataTable {
 </style>
 
 <div class="nav" style="padding-bottom:15px;">
-    <a href="<?php echo BASE_URL; ?>/app/users/dashboard.php">User Management |</a>
+    <a href="<?php echo BASE_URL; ?>/app/user/dashboard1.php">User management |</a>
     <a href="<?php echo BASE_URL; ?>/app/users/user-create.php">Create User |</a>
     <a href="<?php echo BASE_URL; ?>/app/auth/signout.php">Logout</a>
 </div>

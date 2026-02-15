@@ -102,7 +102,12 @@ renderHeader('Update User');
         </div>
         
         <div class="form-group">
-            <label for="role">Role: User</label>
+            <label for="role">Role:</label>
+            <select id="role" name="role">
+                 <option value="user" <?php echo $user['role'] === 'user' ? 'selected' : ''; ?>>User</option>
+                 <option value="manager" <?php echo $user['role'] === 'manager' ? 'selected' : ''; ?>>Manager</option>
+                 <option value="admin" <?php echo $user['role'] === 'admin' ? 'selected' : ''; ?>>Admin</option>
+            </select>
         </div>
         <button type="submit">Update User</button>
     </form>
