@@ -84,6 +84,9 @@ renderHeader($title);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     margin: 20px 0;
 }
+h3{
+    color:black;
+}
 .chart-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));

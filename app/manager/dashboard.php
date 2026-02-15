@@ -73,6 +73,7 @@ renderHeader($title);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     margin: 20px 0;
 }
+
 .chart-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -88,7 +89,7 @@ table.dataTable {
 
 <div class="nav" style="padding-bottom:15px;">
     <a href="<?php echo BASE_URL; ?>/app/users/dashboard.php">User Management |</a>
-    <a href="<?php echo BASE_URL; ?>/app/users/user-create.php">Create User |</a>
+    <a href="<?php echo BASE_URL; ?>/app/user/user-create.php">Create User |</a>
     <a href="<?php echo BASE_URL; ?>/app/auth/signout.php">Logout</a>
 </div>
 
